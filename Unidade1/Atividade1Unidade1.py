@@ -1,0 +1,6 @@
+print("Hello! I Will introduce myself.")
+print('Name: Jean Macedo')
+print('Age: 22')
+print("Job: don't working")
+print('Address: São Paulo - Campinas, Brazil')
+print('Place of Birth: Sudeste São Paulo, BRAZIL')
