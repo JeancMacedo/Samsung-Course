@@ -1,0 +1,10 @@
+mult = 1
+mult2 = 1
+while mult <=9:
+    resultado = mult * 1
+    print(f'1 * {mult} = {resultado}')
+    mult += 1
+while mult2 <=4:
+    resultado = mult2 * 2
+    print(f'2 * {mult2} = {resultado}')
+    mult2 +=1
