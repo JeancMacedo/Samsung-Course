@@ -29,3 +29,6 @@ print(ran,'\n')
 list1 = [11, 11, 11, 22, 33, 44]
 print(list1.count(11),'\n') #Números de elementos específicos
 
+ran = range(0, 5, 1)
+print(len(ran))
+print(ran.count(2),'\n')
