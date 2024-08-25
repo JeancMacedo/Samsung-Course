@@ -48,4 +48,21 @@ a = dic.get('a')
 print (a)
 print(f'-=' * 30)
 dic = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
-dic.keys()
+print(dic.keys())
+print(f'-=' * 30)
+for str1, num in dic.items():
+   print(str1, ':', num)
+
+"""
+Método               Função
+
+
+
+keys()	      Devolve todas as chaves do dicionário.
+values()	    Devolve todos os valores do dicionário.
+items()     	Devolve todos os itens do dicionário em pares [chave]:[valor].
+get(key)	    Retorna o valor da chave. Se não houver chave, devolve Nenhuma.
+pop(chave)	  Devolve o valor da chave e apaga o item. Se não houver chave, causa uma exceção KeyError.
+popitem()	    Devolve o item selecionado aleatoriamente e apaga o item.
+clear()     	Excluir todos os itens do dicionário.
+"""
