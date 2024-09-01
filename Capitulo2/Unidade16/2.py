@@ -130,6 +130,20 @@ b = ('dez', 'vinte', 'trinta') #tupla b
 for val in zip(a, b): #print tupla criada pela agregação da lista a e tupla b
     print(val)
 print(f'=-'*20)
+"""
+Agregação usando a função Zip
+
+Precauções para o uso da função zip
+
+Quando um fator de tipo de dado repetível é transferido para a função zip, ele aparece como um objeto tupla ('a',), e não como 'a'.
+
+Se a lista com uma string como elemento for inserida na função zip como dados repetíveis.
+Note que o elemento resultante é um tupla, portanto aparece como um tupla ('a',) com um elemento chamado 'a', não apenas 'a' porque é um tupla.
+"""
+lst = ['a', 'b', 'hello', 'this']
+my_iterator = zip(lst)
+result = set(my_iterator)
+print(result)
 print(f'=-'*20)
 print(f'=-'*20)
 print(f'=-'*20)
