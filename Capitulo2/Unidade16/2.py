@@ -145,6 +145,19 @@ my_iterator = zip(lst)
 result = set(my_iterator)
 print(result)
 print(f'=-'*20)
+"""
+Agregação usando a função Zip
+
+Exemplo de agregação Zip
+
+Agregado em caso de entrega de múltiplos fatores do tipo 
+de dados repetíveis. Que coisas são jogadas fora aqui?
+"""
+str_list = [ 'hello', 'world' , 'python', 'rocks']
+int_tuple = (1, 2, 3)
+int_list = [400, 500, 600, 700, 800]
+my_iterator = zip(str_list, int_tuple, int_list)
+print(list(my_iterator))
 print(f'=-'*20)
 print(f'=-'*20)
 print(f'=-'*20)
