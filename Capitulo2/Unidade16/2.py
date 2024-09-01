@@ -159,6 +159,17 @@ int_list = [400, 500, 600, 700, 800]
 my_iterator = zip(str_list, int_tuple, int_list)
 print(list(my_iterator))
 print(f'=-'*20)
+"""
+Descompactação de zip e tupla
+
+A descompactação é a operação de retorno de tuplas vinculadas 
+por meio de uma função zip aos dados repetíveis originais.
+Em vez de escrever qualquer outra função,
+você precisa inserir os dados vinculados à função zip
+como um fator e colocar o operador * na frente do fator.
+"""
+zip_lst = list(zip(str_list, int_tuple, int_list))
+a, b, c = zip(*zip_lst) #descompactar tupla
+print(a, b, c)
 print(f'=-'*20)
-print(f'=-'*20)
-print(f'=-'*20)
+
