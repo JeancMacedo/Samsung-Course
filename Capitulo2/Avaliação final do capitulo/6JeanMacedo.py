@@ -12,3 +12,6 @@ school2 = copy.deepcopy(school)
 
 # Verificando se school e school2 são variáveis diferentes
 print(school is school2)  # Isso deve imprimir False
+print(school)
+print('*'*10)
+print(school2)
